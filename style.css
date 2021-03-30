@@ -5,30 +5,30 @@ body {
   font-family: Lato, sans-serif;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0px;
 }
 
 li,
-h3{
+h3 {
   list-style: none;
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
 .header {
-  width:500px;
-  margin:0 auto;
-  display:block;
-  text-align:right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 
 .header-img {
-  width:100%;
+  width: 100%;
 }
 
 .header .header-link {
@@ -36,11 +36,9 @@ button{
 }
 
 @media (max-width: 768px) {
-
   .header {
-    text-align:center;
+    text-align: center;
   }
-  
 }
 
 .wrapper {
