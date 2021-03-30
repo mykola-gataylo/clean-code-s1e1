@@ -32,7 +32,7 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.task-title {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -147,17 +147,17 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.delete:hover {
+li > button.task-delete:hover {
   color: #cf2323;
 }
 
-button.delete img {
+button.task-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.task-delete img:hover {
   transform: rotateZ(0);
 }
 
