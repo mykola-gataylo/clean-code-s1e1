@@ -27,11 +27,11 @@ button {
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.header .header-link {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
